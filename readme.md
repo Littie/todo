@@ -1,20 +1,20 @@
 ## Instalation
 
-1) Clone project https://github.com/Littie/todo.git
-2) Install vendor: composer install
-3) Update project: composer update
-4) Rename .env.example to .env
-5) Generate ket: php artisan key:generate
-6) In .env file set options for your DB
-   DB_CONNECTION=mysql
-   DB_HOST=your database host
-   DB_PORT=3306
-   DB_DATABASE=your database name
-   DB_USERNAME=your database user's name
-   DB_PASSWORD=youe database user's password
-7) Migrate tables: php artisan migrate
-8) Add seeds: php artisan db:seed
+1) Clone project https://github.com/Littie/todo.git \n
+2) Install vendor: composer install \n
+3) Update project: composer update \n
+4) Rename .env.example to .env \n
+5) Generate ket: php artisan key:generate \n
+6) In .env file set options for your DB \n
+   DB_CONNECTION=mysql \n
+   DB_HOST=your database host \n
+   DB_PORT=3306 \n
+   DB_DATABASE=your database name \n
+   DB_USERNAME=your database user's name \n
+   DB_PASSWORD=youe database user's password \n
+7) Migrate tables: php artisan migrate \n
+8) Add seeds: php artisan db:seed \n
 
-Admin:
-username: admin@admin.ad
-password: 123456
+Admin: \n
+username: admin@admin.ad \n
+password: 123456 \n
