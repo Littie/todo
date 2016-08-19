@@ -1,6 +1,6 @@
 ## Instalation
 
-1) Clone project https://github.com/Littie/todo.git \n
+1) Clone project https://github.com/Littie/todo.git <br/>
 2) Install vendor: composer install \n
 3) Update project: composer update \n
 4) Rename .env.example to .env \n
