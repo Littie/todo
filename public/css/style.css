@@ -1,0 +1,95 @@
+th {
+    background-color: #656565;
+    color: #fff;
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 40px;
+    padding: 0 10px;
+    text-shadow: 0 1px 0 #414141;
+}
+
+.tasks,
+.edit,
+.show,
+.create,
+.users {
+    color: #696969;
+    margin-top: 20px;
+}
+
+.tasks .table > thead > tr > th,
+.tasks .table > thead > tr > td,
+.users .table > thead > tr > th,
+.users .table > thead > tr > td {
+    vertical-align: middle;
+    text-align: center;
+}
+
+.tasks .table > tbody > tr > th,
+.tasks .table > tbody > tr > td,
+.users .table > tbody > tr > th,
+.users .table > tbody > tr > td {
+    vertical-align: middle;
+}
+
+.tasks .table > tfoot > tr > th,
+.tasks .table > tfoot > tr > td,
+.users .table > tfoot > tr > th,
+.users .table > tfoot > tr > td {
+    vertical-align: middle;
+}
+
+.tasks a,
+.users a {
+    color: #696969;
+}
+
+.tasks .table > tbody > tr.overdue {
+    background: #f00000;
+    color: #FFFFFF;
+}
+
+.tasks .table > tbody > tr.overdue a {
+    color: #FFFFFF;
+}
+
+.show .box-header > .box-tools {
+    top: 0;
+}
+
+.users .table-bordered > thead > tr > th,
+.users .table-bordered > tbody > tr > th,
+.users .table-bordered > tfoot > tr > th,
+.users .table-bordered > thead > tr > td,
+.users .table-bordered > tbody > tr > td,
+.users .table-bordered > tfoot > tr > td {
+    border: 1px solid #cacaca;
+}
+
+.show-user table {
+    width: 100%;
+}
+
+@media screen and (max-width: 1400px) {
+    .table-responsive {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .table-responsive {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .table-responsive {
+        width: 75%;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .table-responsive {
+        overflow-x: scroll;
+    }
+}
