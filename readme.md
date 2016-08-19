@@ -16,6 +16,8 @@
 </ul>   
 7) Migrate tables: php artisan migrate <br/>
 8) Add seeds: php artisan db:seed <br/>
+9) Start: Change dir to public and type php -S localhost:8000 <br/>
+10) Open localhost:8000 in your brouser</br>
 
 Admin: <br/>
 username: admin@admin.ad <br/>
