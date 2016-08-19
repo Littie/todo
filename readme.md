@@ -4,7 +4,7 @@
 2) Install vendor: composer install <br/>
 3) Update project: composer update <br/>
 4) Rename .env.example to .env <br/>
-5) Generate ket: php artisan key:generate <br/>
+5) Generate key: php artisan key:generate <br/>
 6) In .env file set options for your DB <br/>
 <ul>
    <li>DB_CONNECTION=mysql </li>
